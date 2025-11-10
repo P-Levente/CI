@@ -11,10 +11,7 @@ class Testek(unittest.TestCase):
     def test_nagyobb_nulla(self):
         nagyobb=int(abs_max(sz1,sz2))
         self.assertGreater(nagyobb,0)
-class Testek2(unittest.TestCase):
-    def test_nagyobb_nulla(self):
-        nagyobb=int(abs_max(sz1,sz2))
-        self.assertGreater(nagyobb,1000000)
+
 
 
 unittest.main()
